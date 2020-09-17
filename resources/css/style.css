@@ -1,0 +1,101 @@
+/*--------------------------------------------*/
+/*BASIC SETUP*/
+/*--------------------------------------------*/
+
+html {
+    background-color: rgb(252, 180, 46);
+    font-family: 'Lato', 'Arial', 'san-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    margin-top: 50px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #000;
+    font-size: 80%;
+}
+
+h3 {
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+}
+
+/*--------------------------------------------*/
+/*FORM*/
+/*--------------------------------------------*/
+
+.form-box {
+    width: 30%;
+    margin: 0 auto;
+    color: #000;
+}
+
+.form-box img {
+    height: 50px;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type=card-number],
+select,
+textarea {
+    width: 170%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 80%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    margin-top: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 13px;
+}
+
+*focus{outline:none}
+
+[type="submit"] {
+    background-color: #00aaa3;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    width: 95%;
+    margin-bottom: 20px;
+/*    outline: none;*/
+    border: 0;
+}
+
+
+.form-box div:first-child {
+    background-color: #000000;
+}
+
+.form-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
