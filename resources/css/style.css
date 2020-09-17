@@ -57,6 +57,10 @@ textarea {
     margin-top: 10px;
 }
 
+.remember-card span {
+    color: #fff;
+}
+
 input[type=text],
 select,
 textarea {
